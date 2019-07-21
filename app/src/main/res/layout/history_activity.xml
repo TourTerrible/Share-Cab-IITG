@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".history_activity"
+    android:orientation="vertical">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/history_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="49dp" />
+
+
+    <TextView
+        android:id="@+id/hint2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/history_recycler_view"
+        android:layout_alignParentStart="true"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="22dp"
+        android:background="@drawable/date_background"
+        android:backgroundTint="#9CD39D"
+        android:fontFamily="sans-serif-thin"
+        android:maxWidth="300dp"
+        android:padding="3dp"
+        android:text="Waiting for Network....."
+        android:textAlignment="center"
+        android:textColor="#030303"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/add_new"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#439F47"
+        android:padding="5dp"
+        android:text="ADD new"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/chats"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="#808080"
+        android:padding="5dp"
+        android:text="ADDED"
+        android:textColor="#FDFDFD" />
+
+    <Button
+        android:id="@+id/chats"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/add_new"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="138dp"
+        android:backgroundTint="#439F47"
+        android:padding="5dp"
+        android:text="Chats" />
+
+
+</RelativeLayout>

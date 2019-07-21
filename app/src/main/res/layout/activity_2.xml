@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FDFDFD"
+    android:orientation="vertical"
+    tools:context=".activity2">
+
+    <Button
+        android:id="@+id/chats_recent_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="288dp"
+        android:layout_marginTop="461dp"
+        android:layout_marginBottom="-192dp"
+        android:background="@android:drawable/btn_default_small"
+        android:backgroundTint="#439F47"
+        android:text="Add" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="332dp"
+        android:layout_height="286dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="20dp"
+        android:adjustViewBounds="true"
+        android:cropToPadding="true"
+        app:srcCompat="@drawable/share_cab_logo" />
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="86dp"
+        android:layout_marginBottom="-88dp"
+        android:background="@drawable/date_background"
+        android:hint="Click to Select Date"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#FBFBFB"
+        android:textColorHint="#FDFDFD"
+        android:textIsSelectable="false"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/tv_time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_date"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="15dp"
+        android:background="@drawable/date_background"
+        android:hint="Click to Select time"
+        android:padding="5dp"
+        android:textAlignment="center"
+        android:textColor="#FCFBFB"
+        android:textColorHint="#FDFDFD"
+        android:textSize="16sp" />
+
+    <Spinner
+        android:id="@+id/route"
+        android:layout_width="178dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/imageView"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="36dp"
+        android:layout_marginEnd="119dp"
+        android:backgroundTint="#010101"
+        android:prompt="@string/Route" />
+
+    <View
+        android:id="@+id/divider3"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignBottom="@+id/imageView"
+        android:layout_marginBottom="-138dp"
+        android:background="?android:attr/listDivider" />
+
+    <View
+        android:id="@+id/divider4"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_above="@+id/divider3"
+        android:layout_marginBottom="110dp"
+        android:background="?android:attr/listDivider" />
+
+    <Button
+        android:id="@+id/journeys"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="541dp"
+        android:layout_marginEnd="126dp"
+        android:backgroundTint="#43A047"
+        android:text="Added Journeys" />
+
+    <Button
+        android:id="@+id/add_new"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="0dp"
+        android:layout_marginTop="0dp"
+        android:backgroundTint="#808080"
+        android:padding="5dp"
+        android:text="Add New"
+        android:textColor="#FDFDFD" />
+
+    <Button
+        android:id="@+id/history"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/chats"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="3dp"
+        android:backgroundTint="#439F47"
+        android:padding="5dp"
+        android:text="Added"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/chats"
+        android:layout_width="120dp"
+        android:layout_height="34dp"
+        android:layout_alignTop="@+id/add_new"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="0dp"
+        android:layout_marginEnd="138dp"
+        android:backgroundTint="#439F47"
+        android:padding="5dp"
+        android:text="Chats" />
+
+</RelativeLayout>

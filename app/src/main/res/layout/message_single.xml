@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/message_single"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D61B60"
+    android:backgroundTint="#F3F5F2"
+    android:padding="6dp">
+
+    <TextView
+        android:id="@+id/message_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="7dp"
+        android:background="@drawable/message_text_backgroung"
+        android:padding="10dp"
+        android:text=""
+        android:maxWidth = "300dp"
+        android:textColor="@android:color/white"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/self_msg_text_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="0dp"
+        android:background="@drawable/self_msg_text_backgrnd"
+        android:padding="10dp"
+        android:text=""
+        android:maxWidth = "300dp"
+        android:textColor="#0F0F0F"
+        android:textIsSelectable="true" />
+
+    <TextView
+        android:id="@+id/time_self_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/self_msg_text_layout"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="7dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/time_chat_msg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/message_text_layout"
+        android:layout_alignStart="@+id/message_text_layout"
+        android:layout_marginStart="-4dp"
+        android:layout_marginTop="4dp"
+        android:text="TextView" />
+</RelativeLayout>

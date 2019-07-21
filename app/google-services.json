@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "663274099031",
+    "firebase_url": "https://sharecab-6e731.firebaseio.com",
+    "project_id": "sharecab-6e731",
+    "storage_bucket": "sharecab-6e731.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:663274099031:android:64d4701a153cf7c0",
+        "android_client_info": {
+          "package_name": "com.ahad.share_cab"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "663274099031-14p8htmkpbt71pmt4urma7c1724g677h.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ahad.share_cab",
+            "certificate_hash": "3a6ff7d1d1aa6495f7fa9d317754d62e494b6cdc"
+          }
+        },
+        {
+          "client_id": "663274099031-n2vo9us6f40h7rc47pm5s27lrtblmoof.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWdRzHlzABdvAVfA9v7-Ct8ShTrGydB1M"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "663274099031-n2vo9us6f40h7rc47pm5s27lrtblmoof.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

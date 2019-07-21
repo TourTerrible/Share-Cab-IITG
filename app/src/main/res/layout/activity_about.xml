@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".about_activity">
+
+    <LinearLayout
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="5dp"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignStart="@+id/view"
+            android:layout_weight="8"
+            android:ems="10"
+            android:hint="or Send feedback by writting here......"
+            android:inputType="textPersonName" />
+
+        <ImageButton
+            android:id="@+id/btnsend_suggestion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            app:srcCompat="@android:drawable/ic_menu_send" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/heading_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="11dp"
+        android:background="@drawable/date_background"
+        android:backgroundTint="#439F47"
+        android:padding="5dp"
+        android:text="How to Use"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/help_tv"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/heading_help"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/date_background"
+        android:backgroundTint="#636463"
+        android:padding="8dp"
+        android:text="Add journey by selecting date and time. Go to Added journey and search by clicking on that journey . in search  results , Click on person to chat! "
+        android:textAlignment="viewStart"
+        android:textAllCaps="true"
+        android:textColor="#FDFDFD"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/help_tv"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="160dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/date_background"
+        android:backgroundTint="#43A047"
+        android:padding="5dp"
+        android:text="About"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/about_tv"
+        android:layout_width="340dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textView4"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/date_background"
+        android:backgroundTint="#636463"
+        android:padding="6dp"
+        android:text="Developed by Abdul Ahad (EEE Y'19),  keeping in mind a better alternative of Facebook group- 'Go together Share cab'"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FDFDFD"
+        android:textSize="16dp" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/about_tv"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="147dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/date_background"
+        android:backgroundTint="#43A047"
+        android:padding="5dp"
+        android:text="Feedback"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/feedback_tv"
+        android:layout_width="340dp"
+        android:layout_height="130dp"
+        android:layout_below="@+id/textView6"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/date_background"
+        android:backgroundTint="#636463"
+        android:padding="6dp"
+        android:text="your Feedback means a lot to me . Any new Suggestions,App Bugs and crash. You can tell me by  writing below,telling personally or by giving review on Play store .\nThanks for Downloading!"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="#FDFDFD"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/googlelink"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/view"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="12dp"
+        android:layout_marginBottom="17dp"
+        android:clickable="true"
+        android:contextClickable="false"
+        android:text="Click here to submit feedback Anonymously (google form)"
+        android:textColor="#0101FD"
+        android:textIsSelectable="false" />
+
+</RelativeLayout>

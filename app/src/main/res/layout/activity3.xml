@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity3">
+
+    <TextView
+        android:id="@+id/tv_popup_id"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/date_background"
+        android:backgroundTint="#43A047"
+        android:fontFamily="sans-serif-thin"
+        android:padding="3dp"
+        android:text="Loading........"
+        android:textAlignment="center"
+        android:textColor="#030303"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/list"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp" />
+
+    <TextView
+        android:id="@+id/hint"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|center_vertical"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/date_background"
+        android:backgroundTint="#9CD39D"
+        android:fontFamily="sans-serif-thin"
+        android:maxWidth="300dp"
+        android:padding="3dp"
+        android:text="wait......"
+        android:textAlignment="center"
+        android:textColor="#030303"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+</LinearLayout>
