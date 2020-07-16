@@ -1,2 +1,3 @@
 # share_cab_iitg
-android app
+An android application for the IIT Guwahati campus community for sharing cab
+while traveling between campus and airport.
