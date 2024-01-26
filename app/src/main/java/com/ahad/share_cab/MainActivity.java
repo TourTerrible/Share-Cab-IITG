@@ -122,7 +122,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                 }
                     if(TextUtils.isEmpty(name)){
 
-                         toast = Toast.makeText(getApplicationContext(), "Empty,Please Enter your name", Toast.LENGTH_SHORT);
+                         toast = Toast.makeText(getApplicationContext(), "Empty, Please Enter a valid name", Toast.LENGTH_SHORT);
                          toast.show();
 
 
@@ -163,7 +163,7 @@ public class MainActivity extends AppCompatActivity implements AdapterView.OnIte
                          startActivity(intent);
 
                      } else{
-                         toast = Toast.makeText(getApplicationContext(), "Failed : Network or any other issue", Toast.LENGTH_LONG);
+                         toast = Toast.makeText(getApplicationContext(), "Failed : Network or any other issue, Please try again", Toast.LENGTH_LONG);
                          toast.show();
                      }
 
